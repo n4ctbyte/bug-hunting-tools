@@ -1,0 +1,11 @@
+admin
+login
+panel
+upload
+backup
+test
+dev
+.git
+.env
+
+

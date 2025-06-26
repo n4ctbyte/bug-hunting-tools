@@ -1,0 +1,3 @@
+crawled_urls: ['https://e.oppomobile.com/marketSchool/#/', 'https://e.oppomobile.com/marketing/contact.html?first=2', 'https://e.oppomobile.com/marketing/contact.html?first=3', 'https://e.oppomobile.com/marketing/contact.html?first=4', 'https://e.oppomobile.com', 'https://e.oppomobile.com/markets/manage/IndexManage', 'https://e.oppomobile.com/marketing/contact.html?first=1']
+found_parameters: ['first']
+sqli_findings: False
