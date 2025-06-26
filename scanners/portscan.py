@@ -1,17 +1,6 @@
-
-# Path: BugHunterPro/scanners/portscan.py
-
-def scan_ports(target):
-    print(f"Scanning ports for {target}")
-    # Port scanning logic here
-    pass
-
-
-
-
 import socket
 
-def scan_ports(target, ports=None):
+def scan_ports(target, session, ports=None):
     print(f"Scanning ports for {target}")
     if ports is None:
         ports = [21, 22, 23, 25, 53, 80, 110, 139, 443, 445, 3389, 8080]
@@ -27,6 +16,6 @@ def scan_ports(target, ports=None):
         sock.close()
     if not open_ports:
         print("[-] No open ports found.")
-    return open_ports
+    return len(open_ports) > 0
 
 

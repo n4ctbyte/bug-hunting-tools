@@ -4,11 +4,8 @@ from urllib.parse import urljoin, urlparse, parse_qs
 from bs4 import BeautifulSoup
 
 class ParameterDiscovery:
-    def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
+    def __init__(self, session):
+        self.session = session
         
     def find_urls_with_parameters(self, base_url, max_depth=2):
         """Find URLs with parameters for SQLi testing"""
@@ -94,9 +91,9 @@ class ParameterDiscovery:
         
         # Common JavaScript URL patterns
         patterns = [
-            r'["\']([^"\']*\?[^"\']*)["\']',  # URLs with query strings
-            r'url\s*[:=]\s*["\']([^"\']*\?[^"\']*)["\']',
-            r'ajax\s*\(\s*["\']([^"\']*\?[^"\']*)["\']'
+            r'["\\]([^"\\]*\\?[^"\\]*)["\\]',  # URLs with query strings
+            r'url\\s*[:=]\\s*["\\]([^"\\]*\\?[^"\\]*)["\\]',
+            r'ajax\\s*\\(\\s*["\\]([^"\\]*\\?[^"\\]*)["\\]'
         ]
         
         for pattern in patterns:
@@ -144,12 +141,12 @@ class ParameterDiscovery:
         return found_endpoints
 
 # Enhanced scan function
-def scan_sqli_with_discovery(url):
+def scan_sqli_with_discovery(url, session):
     """Scan SQLi with parameter discovery"""
     print(f"Starting parameter discovery for {url}")
     
     # Discover URLs with parameters
-    discovery = ParameterDiscovery()
+    discovery = ParameterDiscovery(session)
     
     # Method 1: Crawl for URLs with parameters
     param_urls = discovery.find_urls_with_parameters(url, max_depth=2)
@@ -162,27 +159,14 @@ def scan_sqli_with_discovery(url):
     
     if not all_urls:
         print("[-] No URLs with parameters found")
-        return False
+        return [], []
     
     print(f"\n[+] Found {len(all_urls)} URLs with parameters to test:")
     for test_url in all_urls:
         print(f"    {test_url}")
     
-    # Now test each URL for SQLi
-    import sys
-    import os
-    # Add project root to path
-    project_root = os.path.dirname(os.path.dirname(__file__))
-    sys.path.append(project_root)
-    from scanners.sqli import SQLiScanner
-    
-    scanner = SQLiScanner()
-    total_vulns = 0
-    
-    for test_url in all_urls:
-        print(f"\n{'='*60}")
-        if scanner.scan_sqli_improved(test_url):
-            total_vulns += 1
-    
-    print(f"\n[+] Total vulnerable URLs found: {total_vulns}")
-    return total_vulns > 0
+    # For now, we return all found URLs and a dummy list of parameters
+    # The actual parameter extraction for SQLi will happen within the SQLi scanner
+    return all_urls, ["dummy_param"] # Returning a dummy parameter for now
+
+

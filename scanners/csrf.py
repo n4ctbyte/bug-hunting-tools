@@ -1,27 +1,17 @@
-
-# Path: BugHunterPro/scanners/csrf.py
-
-def scan_csrf(url):
-    print(f"Scanning CSRF for {url}")
-    # CSRF scanning logic here
-    pass
-
-
-
-
 import requests
 from bs4 import BeautifulSoup
 
-def scan_csrf(url):
+def scan_csrf(url, session, csrf_payloads):
     print(f"Scanning CSRF for {url}")
+    found_csrf = False
     try:
-        response = requests.get(url)
+        response = session.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         forms = soup.find_all('form')
 
         if not forms:
             print("[-] No forms found on the page, likely no CSRF vulnerability related to forms.")
-            return
+            return found_csrf
 
         for form in forms:
             # Check for CSRF tokens in hidden fields
@@ -34,10 +24,12 @@ def scan_csrf(url):
             
             if not csrf_token_found:
                 print(f"[+] Potential CSRF vulnerability: No CSRF token found in form: {form.get('action') or url}")
+                found_csrf = True
             else:
                 print(f"[-] CSRF token found in form: {form.get('action') or url}")
 
     except requests.exceptions.RequestException as e:
         print(f"Error during CSRF detection: {e}")
+    return found_csrf
 
 

