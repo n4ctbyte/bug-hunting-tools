@@ -80,8 +80,14 @@ def main():
         results["crawled_urls"] = visited_urls
         results["found_parameters"] = list(found_parameters)
 
+        # XSS Scanner
         if args.all or args.xss:
-            results["xss_findings"] = scan_xss(args.url, session, config["payloads"]["xss"])
+            xss_findings = xss_findings = scan_xss(visited_urls, session, config["payloads"]["xss"])
+            for test_url in visited_urls:
+                if "?" in test_url:  # pastikan ada parameter
+                    if scan_xss(test_url, session, config["payloads"]["xss"]):
+                        xss_findings.append(test_url)
+            results["xss_findings"] = xss_findings if xss_findings else False
         if args.all or args.sqli:
             sqli_findings = []
             for test_url in visited_urls:
