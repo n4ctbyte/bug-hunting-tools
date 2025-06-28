@@ -198,12 +198,11 @@ class SQLiScanner:
         else:
             print("\n[-] No SQL Injection vulnerabilities found.")
         
-        return found_sqli
+        return url if found_sqli else None
 
 # Usage function
 def scan_sqli(url, session, sqli_payloads):
-    """Main function to maintain compatibility"""
     scanner = SQLiScanner(session)
-    return scanner.scan_sqli_improved(url, sqli_payloads)
-
+    result = scanner.scan_sqli_improved(url, sqli_payloads)
+    return result
 

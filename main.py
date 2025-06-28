@@ -21,9 +21,13 @@ from utils.reporter import generate_report
 from utils.config import get_session, load_config
 
 def main():
-    parser = argparse.ArgumentParser(description="""BugHunterPro - Advanced Bug Hunting Toolkit""")
+    parser = argparse.ArgumentParser(description="BugHunterPro - Advanced Bug Hunting Toolkit")
+
+    # Target
     parser.add_argument("--url", help="Target URL")
-    parser.add_argument("--target_host", help="Target Host for Port Scan and Subdomain Enumeration (e.g., example.com)")
+    parser.add_argument("--target_host", help="Target host for port scan and subdomain enumeration (e.g., example.com)")
+
+    # Scan options
     parser.add_argument("--all", action="store_true", help="Run all scanners")
     parser.add_argument("--xss", action="store_true", help="Run XSS scanner")
     parser.add_argument("--sqli", action="store_true", help="Run SQL Injection scanner")
@@ -34,11 +38,17 @@ def main():
     parser.add_argument("--csrf", action="store_true", help="Run CSRF scanner")
     parser.add_argument("--cors", action="store_true", help="Run CORS Misconfiguration scanner")
     parser.add_argument("--open_redirect", action="store_true", help="Run Open Redirect scanner")
-    parser.add_argument("--recon", action="store_true", help="Run reconnaissance tools (subdomain, port scan, directory brute)")
+    parser.add_argument("--recon", action="store_true", help="Run all recon tools (subdomain, port scan, dir brute)")
+    parser.add_argument("--portscan", action="store_true", help="Run port scanner only")
+    parser.add_argument("--subdomain", action="store_true", help="Run subdomain enumeration only")
+
+    # Custom headers
     parser.add_argument("--user_agent", help="Set custom User-Agent")
     parser.add_argument("--cookies", help="Set custom cookies (JSON string)")
     parser.add_argument("--proxy", help="Set proxy (e.g., http://127.0.0.1:8080)")
-    parser.add_argument("--output", default="txt", choices=["txt", "json", "csv"], help="Output format (txt, json, csv)")
+
+    # Output
+    parser.add_argument("--output", default="txt", choices=["txt", "json", "csv"], help="Output format")
     parser.add_argument("--output_file", default="report", help="Output filename (without extension)")
 
     args = parser.parse_args()
@@ -48,93 +58,63 @@ def main():
 
     config = load_config()
 
-    user_agent = args.user_agent if args.user_agent else config["settings"]["user_agent"]
+    # Session Setup
+    user_agent = args.user_agent or config["settings"]["user_agent"]
     cookies = None
     if args.cookies:
         try:
             cookies = json.loads(args.cookies)
         except json.JSONDecodeError:
-            print("Error: Invalid JSON format for cookies. Please provide a valid JSON string.")
+            print("[!] Invalid JSON format for cookies.")
             exit(1)
 
     proxy = {"http": args.proxy, "https": args.proxy} if args.proxy else config["settings"]["proxy"]
-
     session = get_session(user_agent, cookies, proxy)
 
     results = {}
 
-    # CRAWLING & PARAMETER ENUMERATION
+    # Scanning by URL
     if args.url:
         print(f"Target URL: {args.url}")
         visited_urls, found_parameters = scan_sqli_with_discovery(args.url, session)
         results["crawled_urls"] = visited_urls
         results["found_parameters"] = list(found_parameters)
 
-        # XSS Scanner
         if args.all or args.xss:
-            xss_findings = scan_xss(args.url, session, config["payloads"]["xss"])
-            results["xss_findings"] = xss_findings
-
-        # SQLi Scanner
+            results["xss_findings"] = scan_xss(args.url, session, config["payloads"]["xss"])
         if args.all or args.sqli:
-            sqli_findings = scan_sqli(args.url, session, config["payloads"]["sqli"])
+            sqli_findings = []
+            for test_url in visited_urls:
+                if scan_sqli(test_url, session, config["payloads"]["sqli"]):
+                    sqli_findings.append(test_url)
             results["sqli_findings"] = sqli_findings
-
-        # LFI Scanner
         if args.all or args.lfi:
-            lfi_findings = scan_lfi(args.url, session, config["payloads"]["lfi"])
-            results["lfi_findings"] = lfi_findings
-
-        # IDOR Scanner
+            results["lfi_findings"] = scan_lfi(args.url, session, config["payloads"]["lfi"])
         if args.all or args.idor:
-            idor_findings = scan_idor(args.url, session, config["payloads"]["idor"])
-            results["idor_findings"] = idor_findings
-
-        # SSTI Scanner
+            results["idor_findings"] = scan_idor(args.url, session, config["payloads"]["idor"])
         if args.all or args.ssti:
-            ssti_findings = scan_ssti(args.url, session, config["payloads"]["ssti"])
-            results["ssti_findings"] = ssti_findings
-
-        # RCE Scanner
+            results["ssti_findings"] = scan_ssti(args.url, session, config["payloads"]["ssti"])
         if args.all or args.rce:
-            rce_findings = scan_rce(args.url, session, config["payloads"]["rce"])
-            results["rce_findings"] = rce_findings
-
-        # CSRF Scanner
+            results["rce_findings"] = scan_rce(args.url, session, config["payloads"]["rce"])
         if args.all or args.csrf:
-            csrf_findings = scan_csrf(args.url, session, config["payloads"]["csrf"])
-            results["csrf_findings"] = csrf_findings
-
-        # CORS Scanner
+            results["csrf_findings"] = scan_csrf(args.url, session, config["payloads"]["csrf"])
         if args.all or args.cors:
-            cors_findings = scan_cors(args.url, session, config["payloads"]["cors"])
-            results["cors_findings"] = cors_findings
-
-        # Open Redirect Scanner
+            results["cors_findings"] = scan_cors(args.url, session, config["payloads"]["cors"])
         if args.all or args.open_redirect:
-            redirect_findings = scan_open_redirect(args.url, session, config["payloads"]["open_redirect"])
-            results["open_redirect_findings"] = redirect_findings
-
-        # Directory Bruteforce (Recon)
+            results["open_redirect_findings"] = scan_open_redirect(args.url, session, config["payloads"]["open_redirect"])
         if args.all or args.recon:
-            dir_findings = brute_directories(args.url, session, config["wordlists"]["common_dirs"])
-            results["dir_bruteforce"] = dir_findings
+            results["dir_bruteforce"] = brute_directories(args.url, session, config["wordlists"]["common_dirs"])
 
-    # PORT SCAN & SUBDOMAIN ENUMERATION
+    # Scanning by Host
     if args.target_host:
         print(f"Target Host: {args.target_host}")
-        if args.all or args.recon:
-            open_ports = scan_ports(args.target_host, session)
-            results["open_ports"] = open_ports
+        if args.all or args.recon or args.portscan:
+            results["open_ports"] = scan_ports(args.target_host)
+        if args.all or args.recon or args.subdomain:
+            results["subdomains"] = enumerate_subdomains(args.target_host, session, config["wordlists"]["subdomains"])
 
-            subdomains = enumerate_subdomains(args.target_host, session, config["wordlists"]["subdomains"])
-            results["subdomains"] = subdomains
-
-    # GENERATE FINAL REPORT
+    # Save report
     generate_report(results, args.output, args.output_file)
-
 
 if __name__ == "__main__":
     main()
-
-

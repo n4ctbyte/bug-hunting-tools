@@ -1,5 +1,5 @@
 import requests
-from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse, urljoin
 
 def detect_rce(session, url, payload):
     try:

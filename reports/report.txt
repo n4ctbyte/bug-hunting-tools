@@ -1,3 +1,63 @@
-crawled_urls: ['https://e.oppomobile.com/marketSchool/#/', 'https://e.oppomobile.com/marketing/contact.html?first=2', 'https://e.oppomobile.com/marketing/contact.html?first=3', 'https://e.oppomobile.com/marketing/contact.html?first=4', 'https://e.oppomobile.com', 'https://e.oppomobile.com/markets/manage/IndexManage', 'https://e.oppomobile.com/marketing/contact.html?first=1']
-found_parameters: ['first']
-sqli_findings: False
+BugHunterPro Scan Report
+=========================
+
+Category: Crawled Urls
+-------------------------
+  - https://career.oppo.com/?jumpUrl=
+  - https://career.oppo.com/category?cat=1
+  - https://career.oppo.com/show?id=1
+  - https://career.oppo.com/view?id=1
+  - https://career.oppo.com/product?id=1
+  - https://career.oppo.com/user?id=1
+  - https://career.oppo.com/api/search?query=test
+  - https://career.oppo.com/article?id=1
+  - https://career.oppo.com/search?q=test
+  - https://career.oppo.com/item?id=1
+  - https://career.oppo.com/page?id=1
+  - https://career.oppo.com/news?id=1
+  - https://career.oppo.com/detail?id=1
+
+Category: Found Parameters
+-------------------------
+  - dummy_param
+
+Category: Xss Findings
+-------------------------
+  False
+
+Category: Sqli Findings
+-------------------------
+  False
+
+Category: Lfi Findings
+-------------------------
+  False
+
+Category: Idor Findings
+-------------------------
+  False
+
+Category: Ssti Findings
+-------------------------
+  False
+
+Category: Rce Findings
+-------------------------
+  False
+
+Category: Csrf Findings
+-------------------------
+  False
+
+Category: Cors Findings
+-------------------------
+  False
+
+Category: Open Redirect Findings
+-------------------------
+  False
+
+Category: Dir Bruteforce
+-------------------------
+  True
+
