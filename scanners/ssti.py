@@ -1,4 +1,5 @@
 import requests
+import urllib.parse
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse, urljoin
 
 def detect_ssti(session, url, payload):
@@ -21,7 +22,7 @@ def detect_ssti(session, url, payload):
         # Test in path (simple case)
         test_url_path = urljoin(url, payload)
         response = session.get(test_url_path, timeout=10)
-        if "49" in response.text:
+        if "49" in response.text and payload not in response.text and urllib.parse.quote(payload) not in response.text:
             return True
 
     except requests.exceptions.RequestException as e:
