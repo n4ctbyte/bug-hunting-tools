@@ -3,119 +3,115 @@ BugHunterPro Scan Report
 
 Category: Crawled Urls
 -------------------------
-  - http://wellsfargo.com/es/exit/e?id=4303938282
-  - https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC&cx_nm=RVAA00009_CSMPD_CB_RV#fn10
-  - https://creditcards.wellsfargo.com/what-is-a-cash-back-credit-card/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB&linkloc=fn&lang=en
-  - https://www.wellsfargo.com/credit-cards/reflect-visa/terms/?sub_channel=WEB&vendor_code=WF&cx_nm=RVAA00003_CSMPD_RV&subproduct_code=VV&product_code=CC&FPID=013000IGF80000
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF&linkloc=fn#fn6
-  - https://web.secure.wellsfargo.com/credit-cards/yourinfo/?lang=es&cx_nm=CXNAME_CSMHP_BT_banner&sub_channel=WEB&vendor_code=WF
-  - https://www.wellsfargo.com/es/credit-cards/reflect-visa/terms/?FPID=013000IGF80000&product_code=CC&subproduct_code=VV&cx_nm=CXNAME_CSMHP_MC&sub_channel=WEB&vendor_code=WF&linkloc=fnmc&lang=es
-  - https://www.wellsfargo.com/credit-cards/choice-select/guide-to-benefits/?FPID=0123CBIXP10000&product_code=CC&subproduct_code=CE&cx_nm=RVAA00012_CSMPD_TR&sub_channel=WEB&vendor_code=WF
-  - https://web.secure.wellsfargo.com/offers/ui/javascript/product-selector/wfui.js?v=25.06.00.56
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&cx_nm=RVAA00001_CSMPD_MC_RV#fn8
-  - http://wellsfargo.com/mortgage/buying-a-house/?dm=DMIWE7AWHM
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282668517&event=PageLoad&pid=tcm:282-126852-64&ptid=tcm:282-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fhelp%2Fapply%2F&clist=283-151275-16~223-4119-32|283-151265-16~223-3764-32|283-151283-16~223-3764-32|283-127188-16~91-1889-32|84-7805-16~91-6223-32|283-151285-16~91-1889-32|84-7805-16~91-6223-32|283-127371-16~91-6222-32|84-6876-16~91-6227-32|283-20661-16~91-1924-32|283-5531-16~91-2045-32|283-39242-16~91-1924-32|84-231755-16~91-1924-32|84-304786-16~91-1924-32|283-8259-16~302-1865-32|283-36430-16~91-2830-32|283-151277-16~223-3757-32|283-8253-16~91-1866-32
-  - http://wellsfargo.com/savings-cds/way2save/?zipCode=test
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283270070&event=PageLoad&pid=222-233818-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcredit-cards%2Fautograph-visa%2Fterms%2F%3Fsub_channel%3DWEB%26amp%3Bvendor_code%3DWF%26amp%3BFPID%3D012988I6P10000%26amp%3Bproduct_code%3DCC%26amp%3Bsubproduct_code%3DAU%26amp%3Bcx_nm%3DRVAA00010_CSMHP_RW_RV&clist=182-233018-16~91-2049-32|84-257921-16~91-1924-32|84-304793-16~91-1924-32
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282795623&event=PageLoad&pid=tcm:703-255118-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fmortgage%2F&clist=84-224686-16~91-2049-32|283-220967-16~91-223645-32|283-251836-16~91-223645-32|283-284677-16~91-223645-32|283-284820-16~91-223645-32|283-284821-16~91-223645-32|283-205467-16~91-223645-32|283-318929-16~91-223645-32|84-226264-16~91-223649-32|283-39242-16~91-223645-32|84-302220-16~91-223645-32|84-304793-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-249745-16~91-244424-32|182-221994-16~91-2049-32|283-294996-16~91-228644-32|283-295004-16~91-228644-32|283-295012-16~91-223650-32|283-303923-16~91-228644-32|703-252336-16~91-223650-32|703-253855-16~91-244416-32|703-253857-16~91-244416-32|703-253859-16~91-244416-32|703-253858-16~91-244416-32|703-253849-16~91-223650-32|703-249709-16~91-223650-32|703-252389-16~91-223650-32|703-252390-16~91-223644-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/business-credit-cards/signify-business-cash-credit-card/?FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC&cx_nm=CXNAME_CSMPD_MC_carousel&sub_channel=WEB&vendor_code=IA&lang=es&placement_id=small_primary&offerid=c_ccd_findcreditcardrspv_smlprimary&slotid=wf_con_hp_smlprimary&linkloc=hp&offertype=tk1
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282809811&event=PageLoad&pid=tcm:703-244031-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fpremier%2F&clist=84-224686-16~91-2049-32|703-246612-16~91-223645-32|703-246613-16~91-223645-32|703-246625-16~91-223645-32|703-246624-16~91-223645-32|703-246614-16~91-223645-32|703-309874-16~91-223645-32|703-246626-16~91-223645-32|703-246623-16~91-223645-32|703-246615-16~91-223645-32|703-246616-16~91-223645-32|703-246617-16~91-223645-32|703-246618-16~91-223645-32|283-38072-16~91-223645-32|283-148263-16~91-223645-32|283-6793-16~91-223645-32|84-249045-16~91-223645-32|84-304796-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-241010-16~91-2049-32|703-245961-16~91-244424-32|703-239972-16~91-228644-32|703-240007-16~91-223669-32|703-240014-16~91-223650-32|703-240212-16~91-223650-32|703-240180-16~91-223669-32|182-312540-16~91-288600-32|703-245035-16~91-223669-32|703-240081-16~91-223650-32|283-241013-16~91-223671-32|703-245811-16~91-223650-32|703-245809-16~91-244416-32|703-245826-16~91-244416-32|283-250873-16~91-244420-32|703-228728-16~91-228649-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/what-are-business-credit-card-rewards/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB
-  - https://creditcards.wellsfargo.com/attune-cash-rewards-categories/?sub_channel=WEB&vendor_code=WF&FPID=012286I6P10000&product_code=CC&subproduct_code=EM&cx_nm=RVAA00014_CSMHP_NF_RV
-  - https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC&cx_nm=RVAA00009_CSMPD_CB_RV#fn2
-  - https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0127E1I0P10000&product_code=CC&subproduct_code=MT&cx_nm=RVAA00010_CSMPD_RW_RV#fn5
-  - https://www.wellsfargo.com/credit-cards/agreements/attune-agreement/?sub_channel=WEB&vendor_code=WF&FPID=012286I6P10000&product_code=CC&subproduct_code=EM&cx_nm=RVAA00008_CSMPD_RV
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=IA&lang=en&product_code=CC&placement_id=Small_Primary&offerid=C_ccd_findcreditcardrspv_smlprimary&slotid=WF_CON_HP_SMLPRIMARY&linkloc=HP&OfferType=TK1#fn21
-  - http://wellsfargo.com/api/gw/authentication/v1/authentications/{authId}/onetimepasscodes?token=fidBapiqiJqGIdWP9aGsB2nPjsUA2Dk2
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283315525&event=PageLoad&pid=222-294678-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcredit-cards%2Fattune%2Fterms%2F%3Fsub_channel%3DWEB%26amp%3Bvendor_code%3DWF%26amp%3BFPID%3D012286I6P10000%26amp%3Bproduct_code%3DCC%26amp%3Bsubproduct_code%3DEM%26amp%3Bcx_nm%3DRVAA00010_CSMHP_RW_RV&clist=182-292604-16~91-2049-32|84-314367-16~91-1924-32|84-304786-16~91-1924-32
-  - https://creditcards.wellsfargo.com/es/?linkloc=fncb&sub_channel=WEB&vendor_code=WF&lang=es
-  - https://www.wellsfargo.com/credit-cards/agreements/onekey-agreement/?FPID=21231AIXP10000&subproduct_code=OW&cx_nm=RVAA00001_CSMPD_MC_carousel&sub_channel=WEB&vendor_code=WF
-  - https://static.wellsfargo.com/en/index?wdr=1/
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF#fn18
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF&linkLoc=FNMC&lang=en#fn27
-  - https://oam.wellsfargo.com/accounts/start?"}),arguments.length>0&&void 0!==arguments[0]?arguments[0]:1e3);var t=function(){ec&&clearTimeout(ec),ec=0};window.addEventListener(
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&cx_nm=RVAA00001_CSMPD_MC_carousel_RV&product_code=CC&subproduct_code=AC#fn7
-  - https://wellsfargo.com/rewards/?sub_channel=WEB&vendor_code=WF&cx_nm=RVAA00008_CSMPD_RV&subproduct_code=EM&product_code=CC&FPID=012286I6P10000
-  - https://creditcards.wellsfargo.com/attune-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=012286I6P10000&product_code=CC&subproduct_code=EM&cx_nm=RVAA00011_CSMPD_IR_RV#fn14
-  - https://www.wellsfargo.com/api/gw/prefill/v1?token=x84j6bhudGGgHSfEujDf2hRnXYGYcjV2
-  - https://www.wellsfargo.com/credit-cards/choice/terms/?FPID=0124CEIXP10LTO&app_source=WELLS_FARGO_COM&product_code=CC&subproduct_code=CP&cx_nm=RVAA00001_CSMPD_MC&sub_channel=WEB&vendor_code=WF#rewardsterms
-  - https://www.wellsfargo.com/credit-cards/bilt/terms?sub_channel=WEB&vendor_code=WF&product_code=CC&subproduct_code=EC&cx_nm=RVAA00010_CSMHP_RW
-  - https://web.secure.wellsfargo.com/mortgage/get-prequalified?src=learn&&
-  - https://info.wellsfargoadvisors.com/form.aspx?type=full-svc-consult&cid=WFA1900048502&intcid=WFA1900048502
-  - https://www.wellsfargo.com/wf/product/apply?prodSet=APP2K&amp;prodCode=SAV-AM
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751284133026&event=PageLoad&pid=tcm:703-324650-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fabout%2Finclusion%2F&clist=84-224686-16~91-2049-32|283-35704-16~91-223645-32|84-325479-16~91-223645-32|84-304792-16~91-223645-32|283-334169-16~91-223647-32|283-334129-16~91-236597-32|283-333981-16~91-226306-32|703-324625-16~91-244424-32|84-324624-16~91-223650-32|703-324630-16~91-223669-32|703-325253-16~91-223650-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/business-credit-cards/?sub_channel=WEB&vendor_code=WF&linkloc=fnmc&lang=es
-  - https://wellsfargo.comehome.com/homeowner/?utm_source=browser&utm_medium=mortgage&utm_campaign=rates
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF#fn15
-  - https://www.ffiec.gov/npw/Institution/Profile/1120754?dt=20200331
-  - https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=RVAA00011_CSMPD_IR_RV#fn6
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282409962&event=PageLoad&pid=tcm:702-226916-64&ptid=tcm:702-223694-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcom%2F&clist=84-228523-16~91-2829-32|84-329367-16~91-223645-32|84-47900-16~91-223645-32|84-336789-16~91-223645-32|84-329634-16~91-223645-32|84-226572-16~91-223647-32|84-226531-16~91-226306-32|182-225329-16~91-223662-32|84-229361-16~91-223650-32|84-225335-16~91-223650-32|182-336512-16~91-223669-32|84-229362-16~91-223650-32|84-225343-16~91-250802-32|84-336606-16~91-250802-32|84-332370-16~91-223650-32|84-226520-16~91-223668-32|84-226640-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/how-do-credit-cards-work/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB&linkloc=fn&lang=en
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282642594&event=PageLoad&pid=tcm:703-289271-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fchecking%2F&clist=84-224686-16~91-2049-32|283-142296-16~91-223645-32|283-336360-16~91-223645-32|703-164790-16~91-223645-32|703-285416-16~91-223645-32|283-149932-16~91-223645-32|283-172233-16~91-223645-32|703-292423-16~91-223645-32|283-198954-16~91-223645-32|283-238518-16~91-223645-32|283-239272-16~91-223645-32|283-248573-16~91-223645-32|283-250629-16~91-223645-32|703-97371-16~91-223645-32|283-38072-16~91-223645-32|283-148263-16~91-223645-32|283-71697-16~91-223645-32|283-161919-16~91-223645-32|703-291874-16~91-223645-32|283-6793-16~91-223645-32|84-226264-16~91-223649-32|84-239082-16~91-223645-32|84-304790-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-326601-16~91-246264-32|283-315841-16~91-306754-32|182-311993-16~91-288600-32|703-289915-16~91-223650-32|182-318198-16~91-288600-32|703-317255-16~91-244420-32|182-318211-16~91-288600-32|703-289330-16~91-228644-32|182-311993-16~91-288600-32|703-326602-16~91-246264-32|703-289285-16~91-244416-32|283-311730-16~91-244416-32|703-289287-16~91-244416-32|703-289286-16~91-244416-32|283-311733-16~91-244416-32|283-311734-16~91-244416-32|182-311993-16~91-288600-32|703-239567-16~91-223673-32|703-289311-16~91-223650-32|182-311998-16~91-288600-32|703-291151-16~91-226307-32|703-228728-16~91-228649-32|703-327244-16~91-223644-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC
-  - https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0127E1I0P10000&product_code=CC&subproduct_code=MT&cx_nm=RVAA00001_CSMPD_MC_RV#fn1
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&cx_nm=RVAA00013_CSMPD_BT_RV
-  - https://creditcards.wellsfargo.com/travel-credit-cards/?sub_channel=WEB&vendor_code=WF#fn9
-  - https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0127E1I0P10000&product_code=CC&subproduct_code=MT&cx_nm=RVAA00001_CSMPD_MC_RV
-  - https://creditcards.wellsfargo.com/es/no-annual-fee-credit-cards/?sub_channel=WEB&vendor_code=WF
-  - https://www.wellsfargo.com/credit-cards/autograph-visa/terms/?sub_channel=WEB&vendor_code=WF&FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=RVAA00004_CSMPD_RV
-  - https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC&cx_nm=RVAA00001_CSMPD_MC_RV#fn10
-  - https://creditcards.wellsfargo.com/travel-credit-cards/?sub_channel=WEB&vendor_code=WF#fn2
-  - http://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282756728&event=PageLoad&pid=tcm:702-314325-64&ptid=tcm:702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fprivacy-security%2Fopt-out-notice%2F&clist=84-224686-16~91-2049-32|84-326537-16~91-223645-32|84-304788-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|84-314341-16~91-223644-32|182-316255-16~91-223671-32|84-314342-16~91-223644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/credit-card-basics/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB
-  - https://www.wellsfargo.com/es/credit-cards/autograph-visa/terms/?FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=CXNAME_CSMHP_IR&sub_channel=WEB&vendor_code=WF
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=IA&lang=en&product_code=CC&placement_id=Small_Primary&offerid=C_ccd_findcreditcardrspv_smlprimary&slotid=WF_CON_HP_SMLPRIMARY&linkloc=HP&OfferType=TK1#fn6
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282834929&event=PageLoad&pid=tcm:222-171274-64&ptid=tcm:222-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fhelp%2Finvesting-and-retirement%2F&clist=182-171515-16~223-4119-32|84-181409-16~91-2049-32|84-171560-16~91-6222-32|84-6876-16~91-6227-32|84-5529-16~91-2045-32|84-15318-16~91-1924-32|84-118701-16~91-1924-32|84-15877-16~91-1924-32|84-233191-16~91-1924-32|84-304787-16~91-1924-32|84-8259-16~91-1865-32|84-36594-16~91-2830-32|182-171558-16~223-6253-32|182-171559-16~223-6249-32|84-8253-16~91-1866-32
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283878137&event=PageLoad&pid=tcm:222-138477-64&ptid=tcm:222-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fhelp%2Frates%2F&clist=84-235696-16~91-1924-32|84-257667-16~91-1924-32|84-8259-16~91-1865-32|84-36594-16~91-2830-32|182-138479-16~223-3757-32|84-8253-16~91-1866-32
-  - https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0127E1I0P10000&product_code=CC&subproduct_code=MT&cx_nm=RVAA00012_CSMPD_TR_RV#fn1
-  - https://creditcards.wellsfargo.com/es/how-to-use-credit-card-roadside-assistance/?vendor_code=WF&app_source=WELLS_FARGO_COM&sub_channel=WEB&linkloc=fn&lang=en
-  - https://www.wellsfargo.com/credit-cards/terms/onekeyplus/?sub_channel=WEB&vendor_code=WF&FPID=21271DIXP10000&product_code=CC&subproduct_code=OF&tabularIndicator=N&cx_nm=RVAA00001_CSMHP_MC#skip
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283029222&event=PageLoad&pid=tcm:703-312116-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fchecking%2Fpremier%2Faccount-benefits%2F&clist=703-246613-16~91-223645-32|703-246626-16~91-223645-32|703-246623-16~91-223645-32|283-239341-16~91-223645-32|283-240647-16~91-223645-32|283-239324-16~91-223645-32|283-239325-16~91-223645-32|283-253874-16~91-223645-32|283-239270-16~91-223645-32|283-213652-16~91-223645-32|283-239343-16~91-223645-32|283-199163-16~91-223645-32|84-312342-16~91-223645-32|84-304795-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-312118-16~91-223644-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283897772&event=PageLoad&pid=tcm:703-248796-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Ffinancial-health%2Fcredit-and-debt%2F&clist=283-123523-16~91-223645-32|283-5192-16~91-223645-32|283-170735-16~91-223645-32|283-217373-16~91-223645-32|283-137619-16~91-223645-32|283-6793-16~91-223645-32|283-71697-16~91-223645-32|84-251629-16~91-223645-32|84-329632-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-248555-16~91-244424-32|703-266011-16~91-246264-32|703-294836-16~91-223644-32|703-248563-16~91-223644-32|703-248667-16~91-223644-32|703-248672-16~91-223644-32|703-248678-16~91-223644-32|703-248704-16~91-228644-32|703-248711-16~91-223650-32|703-248751-16~91-223650-32|703-248753-16~91-223650-32|703-247781-16~91-223669-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282662539&event=PageLoad&pid=tcm:703-289273-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fsavings-cds%2F&clist=283-289945-16~91-223645-32|703-219079-16~91-223645-32|283-338342-16~91-223645-32|703-276895-16~91-223645-32|283-206991-16~91-223645-32|283-6793-16~91-223645-32|84-289651-16~91-223645-32|84-329635-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|283-311725-16~91-223650-32|283-315922-16~91-306754-32|703-291158-16~91-226307-32|182-311989-16~91-288600-32|703-289631-16~91-223650-32|182-311989-16~91-288600-32|283-311754-16~91-223650-32|283-311751-16~91-244416-32|283-311752-16~91-244416-32|283-311753-16~91-244416-32|283-311755-16~91-244416-32|283-311756-16~91-244416-32|182-311989-16~91-288600-32|703-239567-16~91-223673-32|703-289625-16~91-223650-32|182-311997-16~91-288600-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF&linkLoc=FNMC&lang=en#fn4
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283098790&event=PageLoad&pid=282-15476-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Finternational-remittances%2Fcost-estimator%2F&clist=283-16514-16~223-3757-32|283-14827-16~91-2049-32|283-14981-16~91-2043-32|283-16473-16~91-1924-32|283-38062-16~91-1924-32|283-40827-16~91-1924-32|283-241943-16~91-1924-32|283-20661-16~91-1924-32|84-246526-16~91-1924-32|84-304794-16~91-1924-32|283-173798-16~91-1889-32|283-15607-16~91-1889-32|283-15593-16~91-6222-32
-  - https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=RVAA00010_CSMPD_RW_RV#fn5
-  - https://creditcards.wellsfargo.com/es/one-key-credit-card/?FPID=21231AIXP10000&product_code=CC&subproduct_code=OW&sub_channel=WEB&vendor_code=WF&cx_nm=CXNAME_CSMPD_RW
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283724609&event=PageLoad&pid=tcm:282-7116-64&ptid=tcm:282-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fprivacy-security%2Ffraud%2F&clist=283-7106-16~223-158449-32|84-181409-16~91-2049-32|283-174730-16~223-6259-32|283-205150-16~223-179829-32|283-174719-16~91-1889-32|84-7805-16~91-6223-32|283-174720-16~91-1889-32|283-267345-16~91-1889-32|84-6876-16~91-6227-32|283-169741-16~91-1924-32|84-246426-16~91-1924-32|84-329633-16~91-1924-32|283-8259-16~302-1865-32|283-36430-16~91-2830-32|84-95530-16~91-2049-32|283-230175-16~91-2808-32|283-174701-16~223-122388-32|182-175253-16~223-3757-32|84-7805-16~91-6211-32|283-8253-16~91-1866-32
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751284009296&event=PageLoad&pid=282-43553-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fonline-banking%2Fonline-access-agreement%2F&clist=283-43555-16~223-3757-32|283-329427-16~223-3757-32|283-329313-16~223-3755-32|283-329307-16~223-3755-32|283-329329-16~223-3755-32|283-329308-16~223-3755-32|283-329318-16~223-3755-32|283-329317-16~223-3755-32|283-329314-16~223-3755-32|283-329312-16~223-3755-32|283-329324-16~223-3755-32|283-329332-16~223-3755-32|283-329325-16~223-3755-32|283-329311-16~223-3755-32|283-329323-16~223-3755-32|283-329331-16~223-3755-32|283-329330-16~223-3755-32|283-329320-16~223-3755-32|283-329328-16~223-3755-32|283-329327-16~223-3755-32|283-329309-16~223-3755-32|283-329315-16~223-3755-32|283-329316-16~223-3755-32|283-329322-16~223-3755-32|283-329319-16~223-3755-32|283-329321-16~223-3755-32|283-329310-16~223-3755-32|283-5529-16~91-2045-32|283-15318-16~91-1924-32|283-277090-16~91-1924-32|283-71697-16~91-1924-32|283-263324-16~91-1924-32|283-17799-16~91-1924-32|283-193688-16~91-1924-32|283-161919-16~91-1924-32|283-6793-16~91-1924-32|84-329428-16~91-1924-32|84-304795-16~91-1924-32|283-329432-16~91-1889-32
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282940137&event=PageLoad&pid=tcm:702-329051-64&ptid=tcm:702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcib%2Fdeals%2F&clist=84-329740-16~91-223645-32|84-329148-16~91-223645-32|84-304796-16~91-223645-32|84-277478-16~91-223647-32|84-277473-16~91-226306-32|84-329064-16~91-223650-32|84-329070-16~91-223650-32|84-329071-16~91-223650-32|84-330219-16~91-223650-32|84-334266-16~91-223650-32|84-337294-16~91-223650-32|84-226520-16~91-223668-32|84-226640-16~91-223675-32
-  - https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=RVAA00010_CSMPD_RW_RV#fn8
-  - https://connect.secure.wellsfargo.com/auth/login/present?loginMode=jukePassword&amp;serviceType=SECURITY_CENTER
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282396610&event=PageLoad&pid=282-145882-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fhelp%2Fonline-banking%2Fzelle-faqs%2F&clist=283-170874-16~91-6213-32|283-170875-16~91-6213-32|283-170877-16~91-6213-32|283-170878-16~91-6213-32|283-170879-16~91-6213-32|283-170880-16~91-6213-32|283-170881-16~91-6213-32|283-170882-16~91-6213-32|283-170884-16~91-6213-32|283-170885-16~91-6213-32|283-170887-16~91-6213-32|283-170888-16~91-6213-32|283-170889-16~91-6213-32|283-286379-16~91-6213-32|283-286381-16~91-6213-32|283-176140-16~223-3757-32|283-177333-16~91-6213-32|283-176141-16~91-6213-32|283-176142-16~91-6213-32|283-164790-16~91-1924-32|283-175785-16~91-1924-32|283-7225-16~91-1924-32|283-176606-16~91-1924-32|283-161919-16~91-1924-32|283-20661-16~91-1924-32|84-235577-16~91-1924-32|84-257666-16~91-1924-32|84-6876-16~91-6227-32
-  - https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=012988I6P10000&product_code=CC&subproduct_code=AU&cx_nm=RVAA00010_CSMPD_RW_RV#fn11
-  - https://web.secure.wellsfargo.com/credit-cards/yourinfo/?sub_channel=WEB&vendor_code=WF&lang=en&cx_nm=RVAA00001_CSMHP_MC_banner_RV
-  - https://creditcards.wellsfargo.com/rewards-credit-cards/?sub_channel=WEB&vendor_code=WF#fn22
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283221268&event=PageLoad&pid=tcm:703-322970-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fsavings-cds%2Fkids%2F&clist=283-170422-16~91-223645-32|283-116050-16~91-223645-32|703-276895-16~91-223645-32|283-170735-16~91-223645-32|283-142296-16~91-223645-32|703-164790-16~91-223645-32|283-161919-16~91-223645-32|283-20661-16~91-223645-32|84-250488-16~91-223645-32|84-304791-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|703-322975-16~91-244424-32|703-322978-16~91-223650-32|84-322991-16~91-228644-32|182-321788-16~91-288600-32|84-325158-16~91-250802-32|84-325159-16~91-250802-32|84-325160-16~91-250802-32|182-321788-16~91-288600-32|703-325228-16~91-223650-32|182-321788-16~91-288600-32|703-325229-16~91-223650-32|703-325238-16~91-244416-32|703-325243-16~91-244416-32|703-325259-16~91-244416-32|703-325261-16~91-244416-32|703-325263-16~91-244416-32|703-325265-16~91-244416-32|703-325267-16~91-244416-32|703-239567-16~91-223673-32|182-321802-16~91-288600-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&cx_nm=RVAA00009_CSMPD_CB_RV#fn3
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&cx_nm=RVAA00010_CSMPD_RW_RV#fn8
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283883337&event=PageLoad&pid=tcm:703-255941-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fmortgage%2Fbuying-a-house%2F&clist=84-224686-16~91-2049-32|283-251836-16~91-223645-32|84-226264-16~91-223649-32|283-39242-16~91-223645-32|84-294559-16~91-223645-32|84-304794-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|182-221986-16~91-2049-32|283-331411-16~91-244424-32|283-331410-16~91-223650-32|182-319389-16~91-288600-32|283-331412-16~91-223669-32|182-325281-16~91-288600-32|283-331419-16~91-223650-32|182-325289-16~91-288600-32|283-332058-16~91-223650-32|283-331422-16~91-244416-32|283-331423-16~91-244416-32|283-331424-16~91-244416-32|703-263443-16~91-244416-32|703-253849-16~91-223650-32|182-319389-16~91-288600-32|703-263434-16~91-223669-32|702-303099-16~91-2049-32|703-255940-16~91-223650-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/?product_code=CC&subproduct_code=ALL&sub_channel=WEB&vendor_code=RW&placement_id=RW_CCD_RW_HP_ExploreCards&linkloc=RWHP#fn5
-  - https://creditcards.wellsfargo.com/es/what-is-a-cash-back-credit-card/?vendor_code=WF&app_source=WELLS_FARGO_COM&sub_channel=WEB&linkloc=fn&lang=en
-  - https://appointments.wellsfargo.com/goals-credit/?linkLoc=hb
-  - https://creditcards.wellsfargo.com/active-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&cx_nm=RVAA00009_CSMPD_CB_RV#fn2
-  - https://creditcards.wellsfargo.com/es/balance-transfer-credit-cards/?sub_channel=WEB&vendor_code=WF&linkloc=FNBT&lang=es#main-content
-  - https://oam.wellsfargo.com/oamo/identity/enroll/langtoggle?wfctoken=piHrd6WbGQpquFX1fdWVmZq41iUvgmBO&amp;language=es&amp;view=identificationView&amp;langPref=SPN
-  - https://icomplete.wellsfargo.com/privacy-security/?linkLoc=hb
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283101183&event=PageLoad&pid=tcm:282-16188-64&ptid=tcm:282-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fhelp%2Finternational-remittances-faqs%2F&clist=283-19559-16~223-3727-32|283-170762-16~223-8778-32|283-15589-16~91-1889-32|283-15593-16~91-6222-32|84-6876-16~91-6227-32|283-195172-16~91-1924-32|283-195312-16~91-1924-32|283-16535-16~91-1924-32|283-16534-16~91-1924-32|283-127942-16~91-1924-32|283-67602-16~91-1924-32|283-162287-16~91-1924-32|283-184304-16~91-1924-32|283-186408-16~91-1924-32|283-155230-16~91-1924-32|283-155231-16~91-1924-32|283-45668-16~91-1924-32|84-16197-16~91-1924-32|283-241943-16~91-1924-32|283-40827-16~91-1924-32|283-20661-16~91-1924-32|283-195229-16~91-1924-32|84-246527-16~91-1924-32|84-304794-16~91-1924-32|283-8259-16~302-1865-32|283-36430-16~91-2830-32|283-16191-16~91-6213-32|283-16214-16~91-6213-32|283-16215-16~91-6213-32|283-16211-16~91-6213-32|283-16239-16~91-6213-32|283-16240-16~91-6213-32|283-16241-16~91-6213-32|283-16243-16~91-6213-32|283-16221-16~91-6213-32|283-16222-16~91-6213-32|283-16245-16~91-6213-32|283-164941-16~91-6213-32|283-164942-16~91-6213-32|283-8253-16~91-1866-32
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283153197&event=PageLoad&pid=tcm:703-267313-64&ptid=tcm:703-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fes%2Fmobile-online-banking%2Ftransfer-pay%2F&clist=703-164790-16~91-223645-32|283-116050-16~91-223645-32|283-163369-16~91-223645-32|283-218522-16~91-223645-32|283-196173-16~91-223645-32|283-162984-16~91-223645-32|283-16534-16~91-223645-32|283-241943-16~91-223645-32|283-16535-16~91-223645-32|283-326851-16~91-223645-32|283-276972-16~91-223645-32|283-161919-16~91-223645-32|283-20661-16~91-223645-32|84-277991-16~91-223645-32|84-329632-16~91-223645-32|703-245958-16~91-223647-32|283-241194-16~91-236597-32|703-245989-16~91-226306-32|283-277074-16~91-244424-32|283-277077-16~91-223650-32|84-277082-16~91-223650-32|283-277094-16~91-223669-32|283-264657-16~91-223650-32|283-277093-16~91-223644-32|703-246011-16~91-223668-32|703-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/es/0-percent-intro-apr-credit-cards/?sub_channel=WEB&#38;vendor_code=WF
-  - https://apply.wellsfargo.com/getting_started?sub_channel=WEB&vendor_code=WF&FPID=0126D7I6F40000&applicationtype=consumercreditcard&product_code=CC&subproduct_code=AC&cx_nm=RVAA00001_CSMHP_MC_RV
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF#fn11
-  - http://wellsfargo.com/es/checking/?utm_source=OU&utm_campaign=checking-defaults-Q324&utm_medium=HPPS#comoobtengoaccesoamiscuentasdechequesdewellsfargoporinternet
-  - https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=0127E1I0P10000&product_code=CC&subproduct_code=MT&cx_nm=RVAA00001_CSMPD_MC_RV#fn9
-  - https://creditcards.wellsfargo.com/wells-fargo-autograph-visa-credit-cards/?sub_channel=WEB&vendor_code=WF&product_code=CC&subproduct_code=MC#fn11
-  - https://creditcards.wellsfargo.com/why-get-a-hotel-credit-card/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB
-  - https://creditcards.wellsfargo.com/es/how-to-choose-a-credit-card/?product_code=CC&vendor_code=WF&app_source=WELLS_FARGO_COM&cx_nm=CXNAME_CSMART&sub_channel=WEB
-  - https://creditcards.wellsfargo.com/0-percent-intro-apr-credit-cards/?sub_channel=WEB&vendor_code=WF#main-content
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282778027&event=PageLoad&pid=tcm:702-321264-64&ptid=tcm:702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Flearn%2Fimportance-of-credit-debt-savings-in-homebuying%2F&clist=84-224686-16~91-2049-32|84-226264-16~91-223649-32|84-39242-16~91-223645-32|84-321186-16~91-223645-32|84-329633-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-225440-16~91-2049-32|84-321260-16~91-223644-32|84-321261-16~91-223644-32|84-321262-16~91-223644-32|84-321263-16~91-223644-32|702-303099-16~91-2049-32|84-311826-16~91-223650-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32
-  - https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282717502&event=PageLoad&pid=222-228499-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcredit-cards%2Fbilt%2Fterms%2F%3Fsub_channel%3DWEB%26amp%3Bvendor_code%3DWF%26amp%3Bproduct_code%3DCC%26amp%3Bsubproduct_code%3DEC%26amp%3Bcx_nm%3DRVAA00001_CSMHP_MC&clist=182-224744-16~91-2049-32|182-182894-16~223-3757-32|84-257923-16~91-1924-32|84-257673-16~91-1924-32
-  - https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&linkLoc=FNBCMC&lang=en#main-content
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751282927027&event=PageLoad&pid=tcm:222-311757-64&ptid=tcm:222-170471-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fcom%2Finsights%2Ftreasury-insights%2Ftreasury-takeaways%2F&clist=84-181409-16~91-2049-32|84-256855-16~91-1924-32|84-311817-16~91-1924-32|84-304793-16~91-1924-32|84-38811-16~91-1865-32|182-311802-16~223-3757-32|182-331024-16~223-6249-32|182-331021-16~223-246271-32|182-331023-16~223-6249-32|182-331020-16~223-246271-32|182-331022-16~223-6249-32|182-331019-16~223-246271-32|182-328364-16~223-6249-32|182-328365-16~223-246271-32|182-321812-16~223-6249-32|182-321814-16~223-246271-32|182-319831-16~223-6249-32|182-319832-16~223-246271-32|182-318660-16~223-6249-32|182-318659-16~223-246271-32|182-311815-16~223-6249-32|182-311816-16~223-246271-32|84-38904-16~91-1866-32
-  - https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/?sub_channel=WEB&vendor_code=WF&FPID=7086BAI6000000&product_code=BD&subproduct_code=BCMC&cx_nm=RVAA00015_CSMPD_BD_RV#fn8
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283597857&event=PageLoad&pid=tcm:702-330533-64&ptid=tcm:702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Flearn%2Fearnest-money%2F&clist=84-226264-16~91-223649-32|84-39242-16~91-223645-32|84-330532-16~91-223645-32|84-304796-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-225440-16~91-2049-32|84-330468-16~91-223644-32|84-330470-16~91-223644-32|84-330475-16~91-223644-32|84-330482-16~91-223644-32|84-330523-16~91-223644-32|84-330531-16~91-223650-32|84-330526-16~91-223644-32|84-330528-16~91-223644-32|182-319389-16~91-288600-32|702-303099-16~91-2049-32|84-311826-16~91-223650-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32
-  - https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=IA&lang=en&product_code=CC&placement_id=Small_Primary&offerid=C_ccd_findcreditcardrspv_smlprimary&slotid=WF_CON_HP_SMLPRIMARY&linkloc=HP&OfferType=TK1#fn12
-  - https://www.wellsfargo.com/credit-cards/choice/terms/?FPID=0124CEIXP10LTO&app_source=WELLS_FARGO_COM&product_code=CC&subproduct_code=CP&cx_nm=RVAA00012_CSMPD_TR&sub_channel=WEB&vendor_code=WF
-  - https://creditcards.wellsfargo.com/rewards-credit-cards/?sub_channel=WEB&vendor_code=WF&linkloc=FNRW&lang=en#fn7
-  - http://wellsfargo.com/assets/images/global/s.gif?log=1&cb=1751283579700&event=PageLoad&pid=tcm:702-295122-64&ptid=tcm:702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Fcalculators%2F&clist=84-26096-16~91-223645-32|84-311386-16~91-223645-32|84-318929-16~91-223645-32|84-226264-16~91-223649-32|84-39242-16~91-223645-32|84-295124-16~91-223645-32|84-304790-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-221996-16~91-2049-32|84-295112-16~91-223650-32|84-295109-16~91-223644-32|182-295118-16~91-244416-32|182-263443-16~91-244416-32|182-253853-16~91-244416-32|182-262868-16~91-244416-32|182-253855-16~91-244416-32|182-263453-16~91-244416-32|182-253858-16~91-244416-32|84-253849-16~91-223650-32|182-263434-16~91-223669-32|84-295121-16~91-223650-32|702-303099-16~91-2049-32|84-266736-16~91-223650-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32
-  - https://icomplete.wellsfargo.com/oas/production/javascript/pll-rate-checker.js?version=25.06.00.83
+  - https://www.opposhop.cn/search?q=test
+  - https://www.opposhop.cn/api/search?query=test
+  - https://www.opposhop.cn/product?id=1
+  - https://www.opposhop.cn/user?id=1
+  - https://www.opposhop.cn/page?id=1
+  - https://www.opposhop.cn/news?id=1
+  - https://www.opposhop.cn/article?id=1
+  - https://www.opposhop.cn/cn/web/products/29620.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29660.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29572.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29336.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/31551.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/27613.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/32625.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/27613.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/31551.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/32625.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29336.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29620.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29660.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29572.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/www.opposhop.cn/cn/web/category/010504?code=010504&title=OPPO手机专区&tab=2767&us=fenleiye
+  - https://www.opposhop.cn/cn/web/category/010504?code=010504&title=OPPO%E6%89%8B%E6%9C%BA%E4%B8%93%E5%8C%BA&tab=3026&us=fenleiye
+  - https://www.opposhop.cn/www.opposhop.cn/cn/web/category/010504?code=010504&amp;title=OPPO手机专区&amp;tab=255&amp;us=fenleiye
+  - https://www.opposhop.cn/cn/web/category/010504?code=010504&amp;title=OPPO%E6%89%8B%E6%9C%BA%E4%B8%93%E5%8C%BA&amp;tab=1707&amp;us=fenleiye
+  - https://www.opposhop.cn/cn/web/products/commodity?cata=004342&sub_cata=004364
+  - https://www.opposhop.cn/category?cat=1
+
+Category: Found Parameters
+-------------------------
+  - amp;tab
+  - amp;title
+  - amp;um
+  - amp;us
+  - cat
+  - cata
+  - code
+  - id
+  - q
+  - query
+  - sub_cata
+  - tab
+  - title
+  - um
+  - us
+
+Category: Xss Findings
+-------------------------
+  False
+
+Category: Sqli Findings
+-------------------------
+  - https://www.opposhop.cn/search?q=test
+  - https://www.opposhop.cn/api/search?query=test
+  - https://www.opposhop.cn/product?id=1
+  - https://www.opposhop.cn/user?id=1
+  - https://www.opposhop.cn/page?id=1
+  - https://www.opposhop.cn/news?id=1
+  - https://www.opposhop.cn/article?id=1
+  - https://www.opposhop.cn/cn/web/products/29620.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29660.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29572.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/29336.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/31551.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/27613.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/32625.html?us=pc&um=yedi
+  - https://www.opposhop.cn/cn/web/products/27613.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/31551.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/32625.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29336.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29620.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29660.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/cn/web/products/29572.html?us=pc&amp;um=yedi
+  - https://www.opposhop.cn/www.opposhop.cn/cn/web/category/010504?code=010504&title=OPPO手机专区&tab=2767&us=fenleiye
+  - https://www.opposhop.cn/cn/web/category/010504?code=010504&title=OPPO%E6%89%8B%E6%9C%BA%E4%B8%93%E5%8C%BA&tab=3026&us=fenleiye
+  - https://www.opposhop.cn/www.opposhop.cn/cn/web/category/010504?code=010504&amp;title=OPPO手机专区&amp;tab=255&amp;us=fenleiye
+  - https://www.opposhop.cn/cn/web/category/010504?code=010504&amp;title=OPPO%E6%89%8B%E6%9C%BA%E4%B8%93%E5%8C%BA&amp;tab=1707&amp;us=fenleiye
+  - https://www.opposhop.cn/cn/web/products/commodity?cata=004342&sub_cata=004364
+  - https://www.opposhop.cn/category?cat=1
+
+Category: Lfi Findings
+-------------------------
+  False
+
+Category: Idor Findings
+-------------------------
+  False
+
+Category: Ssti Findings
+-------------------------
+  True
+
+Category: Rce Findings
+-------------------------
+  False
+
+Category: Csrf Findings
+-------------------------
+  False
+
+Category: Cors Findings
+-------------------------
+  True
+
+Category: Open Redirect Findings
+-------------------------
+  False
+
+Category: Dir Bruteforce
+-------------------------
+  True
+
