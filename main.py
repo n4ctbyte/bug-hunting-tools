@@ -24,8 +24,16 @@ def main():
     parser = argparse.ArgumentParser(description="BugHunterPro - Advanced Bug Hunting Toolkit")
 
     # Target
-    parser.add_argument("--url", help="Target URL")
+    parser.add_argument("--url", help="Target URL, e.g., https://example.com/page?id=1")
     parser.add_argument("--target_host", help="Target host for port scan and subdomain enumeration (e.g., example.com)")
+
+    # Recon arguments
+    parser.add_argument("--recon", action="store_true", help="Run all recon tools (subdomain, port scan, dir brute)")
+    parser.add_argument("--portscan", action="store_true", help="Run port scanner only")
+    parser.add_argument("--subdomain", action="store_true", help="Run subdomain enumeration only")
+    parser.add_argument("--wordlist", help="Path to subdomain wordlist (overrides config)")
+    parser.add_argument("--timeout", type=int, default=3, help="Subdomain enumeration timeout")
+    parser.add_argument("--threads", type=int, default=30, help="Subdomain enumeration threads")
 
     # Scan options
     parser.add_argument("--all", action="store_true", help="Run all scanners")
@@ -38,9 +46,6 @@ def main():
     parser.add_argument("--csrf", action="store_true", help="Run CSRF scanner")
     parser.add_argument("--cors", action="store_true", help="Run CORS Misconfiguration scanner")
     parser.add_argument("--open_redirect", action="store_true", help="Run Open Redirect scanner")
-    parser.add_argument("--recon", action="store_true", help="Run all recon tools (subdomain, port scan, dir brute)")
-    parser.add_argument("--portscan", action="store_true", help="Run port scanner only")
-    parser.add_argument("--subdomain", action="store_true", help="Run subdomain enumeration only")
 
     # Custom headers
     parser.add_argument("--user_agent", help="Set custom User-Agent")
@@ -56,7 +61,14 @@ def main():
     if not args.url and not args.target_host:
         parser.error("--url or --target_host is required")
 
+    # Load config
     config = load_config()
+
+    # Determine subdomain wordlist path
+    wordlist_path = args.wordlist or config["wordlists"]["subdomains"]
+    if (args.recon or args.subdomain) and not os.path.isfile(wordlist_path):
+        print(f"[!] Wordlist file not found: {wordlist_path}")
+        exit(1)
 
     # Session Setup
     user_agent = args.user_agent or config["settings"]["user_agent"]
@@ -76,24 +88,14 @@ def main():
     # Scanning by URL
     if args.url:
         print(f"Target URL: {args.url}")
-        visited_urls, found_parameters = scan_sqli_with_discovery(args.url, session)
+        visited_urls, found_params = scan_sqli_with_discovery(args.url, session)
         results["crawled_urls"] = visited_urls
-        results["found_parameters"] = list(found_parameters)
+        results["found_parameters"] = list(found_params)
 
-        # XSS Scanner
         if args.all or args.xss:
-            xss_findings = xss_findings = scan_xss(visited_urls, session, config["payloads"]["xss"])
-            for test_url in visited_urls:
-                if "?" in test_url:  # pastikan ada parameter
-                    if scan_xss(test_url, session, config["payloads"]["xss"]):
-                        xss_findings.append(test_url)
-            results["xss_findings"] = xss_findings if xss_findings else False
+            results["xss_findings"] = scan_xss(visited_urls, session, config["payloads"]["xss"])
         if args.all or args.sqli:
-            sqli_findings = []
-            for test_url in visited_urls:
-                if scan_sqli(test_url, session, config["payloads"]["sqli"]):
-                    sqli_findings.append(test_url)
-            results["sqli_findings"] = sqli_findings
+            results["sqli_findings"] = scan_sqli(visited_urls, session, config["payloads"]["sqli"])
         if args.all or args.lfi:
             results["lfi_findings"] = scan_lfi(args.url, session, config["payloads"]["lfi"])
         if args.all or args.idor:
@@ -117,7 +119,12 @@ def main():
         if args.all or args.recon or args.portscan:
             results["open_ports"] = scan_ports(args.target_host)
         if args.all or args.recon or args.subdomain:
-            results["subdomains"] = enumerate_subdomains(args.target_host, session, config["wordlists"]["subdomains"])
+            results["subdomains"] = enumerate_subdomains(
+                args.target_host,
+                wordlist_path,
+                args.timeout,
+                args.threads
+            )
 
     # Save report
     generate_report(results, args.output, args.output_file)
