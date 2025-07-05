@@ -101,11 +101,15 @@ def main():
         if args.all or args.idor:
             results["idor_findings"] = scan_idor(args.url, session, config["payloads"]["idor"])
         if args.all or args.ssti:
-            results["ssti_findings"] = scan_ssti(args.url, session, config["payloads"]["ssti"])
+            results["ssti_findings"] = scan_ssti(args.url, session)
         if args.all or args.rce:
             results["rce_findings"] = scan_rce(args.url, session, config["payloads"]["rce"])
         if args.all or args.csrf:
-            results["csrf_findings"] = scan_csrf(args.url, session, config["payloads"]["csrf"])
+            csrf_vuln = scan_csrf(args.url, session)
+            results["csrf_findings"] = {
+                "vulnerable": csrf_vuln,
+                "details": "Confirmed: Form accepted without CSRF token" if csrf_vuln else "No obvious CSRF detected"
+            }
         if args.all or args.cors:
             results["cors_findings"] = scan_cors(args.url, session, config["payloads"]["cors"])
         if args.all or args.open_redirect:

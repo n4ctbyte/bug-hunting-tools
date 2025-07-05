@@ -10,7 +10,7 @@ class ParameterDiscovery:
         self.max_depth = max_depth
         self.skip_exts = skip_exts or [
             '.jpg', '.jpeg', '.png', '.gif', '.svg', '.ico',
-            '.woff', '.woff2', '.eot', '.ttf', '.css', '.js'
+            '.woff', '.woff2', '.eot', '.ttf', '.css', '.js', '.mp4'
         ]
         self.priority_params = priority_params or ['id', 'q', 'query', 'token', 'form', 'origin', 'redirect']
 

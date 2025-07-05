@@ -29,7 +29,7 @@ def generate_report(data, format="txt", filename="report"):
 
     elif format == "txt":
         with open(report_path, "w", encoding="utf-8") as f:
-            f.write("BugHunterPro Scan Report\n")
+            f.write("BugHunter Scan Report\n")
             f.write("=========================\n\n")
             for category, findings in data.items():
                 f.write(f"Category: {category.replace('_', ' ').title()}\n")

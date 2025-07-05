@@ -1,26 +1,36 @@
 import requests
+from urllib.parse import urljoin
 
 def brute_directories(url, session, wordlist_path):
-    print(f"Bruteforcing directories for {url}")
+    print(f"📂 Bruteforcing directories on: {url}")
     found_dirs = []
+
     try:
         with open(wordlist_path, "r") as f:
             wordlist = f.read().splitlines()
     except FileNotFoundError:
-        print(f"Error: Wordlist not found at {wordlist_path}")
-        return False
+        print(f"[!] Wordlist not found: {wordlist_path}")
+        return []
+
+    if not url.endswith("/"):
+        url += "/"
 
     for directory in wordlist:
-        target_url = f"{url}/{directory}"
+        target_url = urljoin(url, directory)
         try:
-            response = session.get(target_url, timeout=2)
-            if response.status_code == 200:
-                print(f"[+] Found directory: {target_url}")
-                found_dirs.append(target_url)
+            response = session.get(target_url, timeout=3, allow_redirects=True)
+
+            # Status yang dianggap "menarik"
+            if response.status_code in [200, 301, 302, 403, 401]:
+                print(f"[+] Found: {target_url} (Status: {response.status_code})")
+                found_dirs.append({
+                    "url": target_url,
+                    "status": response.status_code
+                })
+
         except requests.exceptions.RequestException:
             pass
+
     if not found_dirs:
-        print("[-] No directories found.")
-    return len(found_dirs) > 0
-
-
+        print("[-] No accessible directories found.")
+    return found_dirs

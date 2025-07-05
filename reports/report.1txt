@@ -3,11 +3,19 @@ BugHunter Scan Report
 
 Category: Crawled Urls
 -------------------------
-  No findings.
+  - https://www.wnba.com/leaguepass?cid=wnba:lp:digital:site:pr:other:25-009:other\u0026amp;utm_medium=digital\u0026amp;utm_campaign=lp|other\u0026amp;utm_source=site|pr|other\u0026amp;utm_content=wnba|lp|digital|site|pr|other|25-009|other\
+  - https://www.wnba.com/news?id=1
+  - https://www.wnba.com/schedule?broadcaster=WNBA%20League%20Pass
+  - https://www.wnba.com/akam/13/pixel_74897bf2?a=dD0zMjc5YWEzYjY2ZTQ0YTI5MTAwM2EzY2Q2OTg1ZWFkNDQzOGY4ZWVlJmpzPW9mZg==
+  - https://www.wnba.com/schedule?season=2025\u0026amp;month=all\
 
 Category: Found Parameters
 -------------------------
-  No findings.
+  - a
+  - broadcaster
+  - cid
+  - id
+  - season
 
 Category: Xss Findings
 -------------------------
@@ -15,7 +23,7 @@ Category: Xss Findings
 
 Category: Sqli Findings
 -------------------------
-  False
+  - https://www.wnba.com/schedule?season=2025\u0026amp;month=all\
 
 Category: Lfi Findings
 -------------------------
@@ -48,5 +56,6 @@ Category: Open Redirect Findings
 
 Category: Dir Bruteforce
 -------------------------
-  No findings.
+  - {'url': 'https://www.wnba.com/', 'status': 200}
+  - {'url': 'https://www.wnba.com/', 'status': 200}
 

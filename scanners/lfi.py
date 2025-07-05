@@ -1,6 +1,8 @@
 import requests
+import warnings
 import urllib.parse
 from urllib.parse import urljoin, urlparse
+from urllib3.exceptions import InsecureRequestWarning
 
 def detect_lfi(session, base_url, payload, param_name="file"):
     """
@@ -97,6 +99,8 @@ def scan_lfi(url, session, lfi_payloads):
     """
     Main LFI scanning function
     """
+# Supress SSL warning only for this script
+    warnings.simplefilter('ignore', InsecureRequestWarning)
     print(f"Scanning LFI for {url}")
     
     found_lfi = False
@@ -111,5 +115,3 @@ def scan_lfi(url, session, lfi_payloads):
         print("[-] No LFI vulnerabilities found.")
     
     return found_lfi
-
-
