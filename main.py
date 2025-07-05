@@ -105,7 +105,8 @@ def main():
         if args.all or args.rce:
             results["rce_findings"] = scan_rce(args.url, session, config["payloads"]["rce"])
         if args.all or args.csrf:
-            csrf_vuln = scan_csrf(args.url, session)
+            csrf_payloads = config["payloads"].get("csrf", [])
+            csrf_vuln = scan_csrf(args.url, session, csrf_payloads)
             results["csrf_findings"] = {
                 "vulnerable": csrf_vuln,
                 "details": "Confirmed: Form accepted without CSRF token" if csrf_vuln else "No obvious CSRF detected"

