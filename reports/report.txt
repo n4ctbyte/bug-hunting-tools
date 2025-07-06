@@ -3,11 +3,103 @@ BugHunter Scan Report
 
 Category: Crawled Urls
 -------------------------
-  No findings.
+  - https://cares.nba.com/?s=test
+  - https://cares.nba.com/?p=53
+  - https://cares.nba.com/watch/video/get-in-the-game-vote-with-the-nba-and-wnba?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/vote-to-make-an-impact-tre-jones?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/voting-is-a-team-sport-chris-paul?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/voting-is-important-jalen-brunson-trae-young-cj-mccollum?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/do-your-part-by-voting-jeff-green?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/voting-is-imperative-larry-nance-jr?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/1st-time-voters-shape-the-future-kyle-kuzma-jeff-green?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/our-future-is-on-the-ballot-harrison-barnes-damian-lillard?plsrc=nba&collection=get-in-the-game-vote-psa
+  - https://cares.nba.com/watch/video/2025-nba-hbcu-classic-presented-by-att-preview?plsrc=nba&collection=nba-x-hbcu
+  - https://cares.nba.com/watch/video/hbcu-artist-anwar-cushnie?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-aliyah-chevalier?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-jaylen-brannon?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-sopuruchi-ndubuisi?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-sacha-reid?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-sasha-williams?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-showcase?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/marc-davis?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/courtney-kirkland?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/sean-corbin?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/bennie-adams?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/cj-washington?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/karl-lane?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/tom-washington?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/derrick-collins?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/eric-lewis?plsrc=nba&collection=nba-officials-reflect-on-attending-hbcu-schools
+  - https://cares.nba.com/watch/video/matt-myers?plsrc=nba&collection=nba-officials-reflect-on-attending-hbcu-schools
+  - https://cares.nba.com/watch/video/tony-brown?plsrc=nba&collection=nba-officials-reflect-on-attending-hbcu-schools
+  - https://cares.nba.com/watch/video/hall-of-famer-earl-the-pearl-monroe?plsrc=nba&collection=hall-of-famers-from-hbcus
+  - https://cares.nba.com/watch/video/the-clutch-gene-of-sam-jones?plsrc=nba&collection=hall-of-famers-from-hbcus
+  - https://cares.nba.com/watch/video/the-resiliency-of-willis-reed?plsrc=nba&collection=hall-of-famers-from-hbcus
+  - https://cares.nba.com/watch/video/hbcu-students-art-showdown?plsrc=nba&collection=hbcu-student-showcase-art
+  - https://cares.nba.com/watch/video/hbcu-artists-showcase-their-work?plsrc=nba&collection=hbcu-student-showcase
+  - https://cares.nba.com/watch/video/black-history-month-honoring-those-before-us?plsrc=nba&collection=black-history-month-investing-in-black-futures
+  - https://cares.nba.com/watch/video/2025-nba-hbcu-classic-game-recap-tuskegee-68-morehouse-55?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/all-access-all-star-2025-hbcu-classic?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/spike-lee-joins-broadcast-during-nba-hbcu-classic?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/adam-silver-dikembe-mutombo-hbcu-classic-2025-all-star-media-availability?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/black-history-month-montage?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/legalzoom-x-nba?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/black-history-month-orlando-magic?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-los-angeles-clippers?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-milwaukee-bucks?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-phoenix-suns?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/paul-george-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/rick-carlisle-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/anthony-davis-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/jacque-vaughn-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/jb-bickerstaff-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/karl-anthony-towns-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/trae-young-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/cj-mccollum-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/robert-covington-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/harrison-barnes-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/barrier-breakers-the-impact-of-bill-russell?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-al-attles?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-earl-lloyd?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/channels/nba_tv/2014/02/12/20140211-barrier-breakers-ranadive.nba?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breaker-wilt-chamberlain-makes-history?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-violet-palmer?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-laurel-j-richie?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-don-barksdale?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-robertson-and-russell?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-earl-lloyd-bp222z?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/games?date=2025-01-20
+  - https://cares.nba.com/watch/video/honoring-movement-to-overcome-mlk-day-inside-the-nba-jan-20?plsrc=nba&collection=mlk-day-2025
+  - https://cares.nba.com/watch/video/mlk-day-history-street-names-king-boulevard-jan-20?plsrc=nba&collection=mlk-day-2025
+  - https://cares.nba.com/watch/video/mlk-day-journey-three-decades-inside-the-nba-jan-20?plsrc=nba&collection=mlk-day-2025
+  - https://cares.nba.com/watch/video/the-blueprint-mlk-day?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-2025-reflections-on-dr-king-2?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/charles-barkley-thanks-civil-rights-luminaries-heavy-lifting?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-simplicity-intelligence-nativete-inequity-inside-the-nba-jan-20?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-2025-reflections-on-dr-king?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-2025-how-can-youth-use-their-voices-for-positive-change-in-their-communities?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/unfinished-business-advancing-dr-kings-dream-part-1-2?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-golden-state-warriors?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-new-york-knicks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-boston-celtics?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-cleveland-cavaliers?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-minnesota-timberwolves?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-new-orleans-pelicans?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-phoenix-suns?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-atlanta-hawks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-detroit-pistons?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-houston-rockets?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-charlotte-hornets?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-dallas-mavericks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-memphis-grizzlies?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
 
 Category: Found Parameters
 -------------------------
-  No findings.
+  - collection
+  - date
+  - p
+  - plsrc
+  - s
 
 Category: Xss Findings
 -------------------------
@@ -15,11 +107,55 @@ Category: Xss Findings
 
 Category: Sqli Findings
 -------------------------
-  False
+  - https://cares.nba.com/watch/video/hbcu-artist-jaylen-brannon?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-sopuruchi-ndubuisi?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/hbcu-artist-showcase?plsrc=nba&collection=2024-nba-all-star-hbcu-student-showcase-2
+  - https://cares.nba.com/watch/video/marc-davis?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/courtney-kirkland?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/sean-corbin?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/cj-washington?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/karl-lane?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/tom-washington?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/derrick-collins?plsrc=nba&collection=black-history-month-nba-referees
+  - https://cares.nba.com/watch/video/eric-lewis?plsrc=nba&collection=nba-officials-reflect-on-attending-hbcu-schools
+  - https://cares.nba.com/watch/video/hall-of-famer-earl-the-pearl-monroe?plsrc=nba&collection=hall-of-famers-from-hbcus
+  - https://cares.nba.com/watch/video/hbcu-students-art-showdown?plsrc=nba&collection=hbcu-student-showcase-art
+  - https://cares.nba.com/watch/video/black-history-month-honoring-those-before-us?plsrc=nba&collection=black-history-month-investing-in-black-futures
+  - https://cares.nba.com/watch/video/2025-nba-hbcu-classic-game-recap-tuskegee-68-morehouse-55?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/spike-lee-joins-broadcast-during-nba-hbcu-classic?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/adam-silver-dikembe-mutombo-hbcu-classic-2025-all-star-media-availability?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/legalzoom-x-nba?plsrc=nba&collection=nba-history-black-history-month
+  - https://cares.nba.com/watch/video/black-history-month-orlando-magic?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-los-angeles-clippers?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-milwaukee-bucks?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/black-history-month-phoenix-suns?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/rick-carlisle-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/anthony-davis-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/jacque-vaughn-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/jb-bickerstaff-on-the-importance-of-black-history-month?plsrc=nba&collection=black-history-month-nba-player-videos
+  - https://cares.nba.com/watch/video/barrier-breakers-al-attles?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breakers-earl-lloyd?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/barrier-breaker-wilt-chamberlain-makes-history?plsrc=nba&collection=barrier-breakers
+  - https://cares.nba.com/watch/video/mlk-day-2025-reflections-on-dr-king-2?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/charles-barkley-thanks-civil-rights-luminaries-heavy-lifting?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-2025-reflections-on-dr-king?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-2025-how-can-youth-use-their-voices-for-positive-change-in-their-communities?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/unfinished-business-advancing-dr-kings-dream-part-1-2?plsrc=nba&collection=nba-x-mlk-day-homepage
+  - https://cares.nba.com/watch/video/mlk-day-golden-state-warriors?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-new-york-knicks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-cleveland-cavaliers?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-minnesota-timberwolves?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-new-orleans-pelicans?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-phoenix-suns?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-atlanta-hawks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-detroit-pistons?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-charlotte-hornets?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-dallas-mavericks?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
+  - https://cares.nba.com/watch/video/mlk-day-memphis-grizzlies?plsrc=nba&collection=mlk-day-2025-nba-players-on-mlk
 
 Category: Lfi Findings
 -------------------------
-  False
+  True
 
 Category: Idor Findings
 -------------------------
@@ -35,8 +171,8 @@ Category: Rce Findings
 
 Category: Csrf Findings
 -------------------------
-  Vulnerable: False
-  Details: No obvious CSRF detected
+  Vulnerable: True
+  Details: Confirmed: Form accepted without CSRF token
 
 Category: Cors Findings
 -------------------------
@@ -48,5 +184,6 @@ Category: Open Redirect Findings
 
 Category: Dir Bruteforce
 -------------------------
-  No findings.
+  - {'url': 'https://cares.nba.com/', 'status': 200}
+  - {'url': 'https://cares.nba.com/', 'status': 200}
 

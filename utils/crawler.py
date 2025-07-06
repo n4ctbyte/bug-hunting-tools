@@ -5,7 +5,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 from bs4 import BeautifulSoup
 
 class ParameterDiscovery:
-    def __init__(self, session, max_depth=2, skip_exts=None, priority_params=None):
+    def __init__(self, session, max_depth=1, skip_exts=None, priority_params=None):
         self.session = session
         self.max_depth = max_depth
         self.skip_exts = skip_exts or [

@@ -1,6 +1,7 @@
 import argparse
 import os
 import json
+import urllib3
 
 from scanners.xss import scan_xss
 from scanners.sqli import scan_sqli
@@ -21,6 +22,7 @@ from utils.reporter import generate_report
 from utils.config import get_session, load_config
 
 def main():
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     parser = argparse.ArgumentParser(description="BugHunterPro - Advanced Bug Hunting Toolkit")
 
     # Target

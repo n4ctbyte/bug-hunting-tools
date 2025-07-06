@@ -13,6 +13,8 @@ def get_session(user_agent=None, cookies=None, proxy=None):
         session.cookies.update(cookies)
     if proxy:
         session.proxies.update(proxy)
+    
+    session.verify = False
     return session
 
 config = load_config()
